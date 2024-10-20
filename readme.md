@@ -32,7 +32,8 @@
 ``
 SHOW TABLES;
 SHOW FULL COLUMNS FROM `$table_name`;
-``
+``![image](https://github.com/user-attachments/assets/5a434df5-0142-4462-8e08-2df3a535da12)
+
 
 Подсказки:
 * Внутри row, который вы получаете из базы лежат не только сами значения полей, но и метаданные - https://golang.org/pkg/database/sql/#Rows.ColumnTypes
