@@ -41,5 +41,7 @@ SHOW FULL COLUMNS FROM `$table_name`;
 * Придётся вытаскивать неизвестное количество полей из row, подумайте как тут можно применить пустые интерфейсы
 * Поднять mysql-базу локально проще всего через докер:
 ```
-docker run -p 3306:3306 -v $(PWD):/docker-entrypoint-initdb.d -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=golang -d mysql
+docker run -p 3306:3306 -v $(PWD):/docker-entrypoint-initdb.d -e MYSQL_ROOT_PASSWORD=1234 -e MYSQL_DATABASE=gola
+![image](https://github.com/user-attachments/assets/5306e644-9617-49ea-8a7e-d22e76781df0)
+ng -d mysql
 ```
